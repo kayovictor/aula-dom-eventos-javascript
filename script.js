@@ -1,11 +1,8 @@
-//01
-function minhaFuncao (){
-    document.getElementById('boas-vindas').innerHTML = 'Olá, Seja bem vindo ao mundo JS!'
-}
-//02
-function minha01(){
- var paragrafo =  document.getElementsByTagName('p');
- for(let i = 0; i < paragrafo.length; i++){
-   paragrafo[i].innerHTML = 'Olá, Seja bem vindo ao mundo JS!';  
- }
+var elemento =  document.getElementById('tituloMusica');
+elemento.innerHTML = "O cravo e a rosa";
+
+var elementos = document.getElementsByTagName('p');
+
+for(let i = 0; i < elementos.length; i++){
+    elementos[i].innerHTML = "Olá mundo JS!"
 }
